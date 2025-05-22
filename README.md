@@ -2,7 +2,7 @@
 
 <h3>O presente projeto visa desenvolver uma página de portifólio com links para redes sociais, focando em passar a identidade do usuário além de ter estilo e funcionalidade.</h3>
 
-###Status
+### Status
 ---
   <a>Em desenvolvimento...</a>
 
