@@ -10,8 +10,8 @@
     --text-color:var(--platinum);
     --bg-url: url(./assets/bg-mobile-dark.jpg);
     --bg-color:#73628a12;
-    --bg-color-hover: #73628ab3;
-    --stroke-color:#73628ab3;
+    --bg-color-hover: #CBC5Eab3;
+    --stroke-color:#CBC5Eab3;
     --border-color: var(--periwinkle);
     --icon-color: var(--periwinkle);
     --icon-hover: var(--gunmetal);
@@ -23,8 +23,8 @@
     --text-color: var(--delftblue);
     --bg-url: url(./assets/bg-mobile-light.jpg);
     --bg-color: #CBC5Ea12;
-    --bg-color-hover: #cbc5ead8;
-    --stroke-color: #CBC5Eab3;
+    --bg-color-hover: #73628ab3;
+    --stroke-color: #73628ab3;
     --border-color: var(--delftblue);
     --icon-color: var(--gunmetal);
     --icon-hover: var(--platinum);
@@ -104,11 +104,13 @@ body *{
     left: 0;
     z-index: 1;
     transform: translateY(-50%);
+
+    animation: slide-out 0.4s;
+    transition: outline 0.6s;
 }
 
 .light #switch button{
-    right: 0;
-    left: initial;
+    animation: slide-in 0.4s forwards;
 }
 
 #switch span{
@@ -123,7 +125,11 @@ body *{
 }
 
 .light #switch span{
-    background: #183642bf;
+    background: var(--bg-color-hover);
+}
+
+#switch button:hover{
+    outline: 8px solid var(--bg-color-hover);
 }
 
 /*links*/
@@ -187,5 +193,25 @@ footer{
 
     .light{
         --bg-url: url(./assets/bg-desktop-light.jpg);
+    }
+}
+
+/*animação*/
+@keyframes slide-in{
+    from{
+        left: 0;
+    }
+
+    to{
+        left: 50%;
+    }
+}
+
+@keyframes slide-out{
+    from{
+        left: 50%;
+    }
+    to{
+        left: 0;
     }
 }
