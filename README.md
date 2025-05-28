@@ -1,13 +1,23 @@
-<h1>Página Web com direcionamento de links para redes importantes</h1>
+<h1 align="center">Profile Links</h1>
 
-<h3>O presente projeto visa desenvolver uma página de portifólio com links para redes sociais, focando em passar a identidade do usuário além de ter estilo e funcionalidade.</h3>
+### 💻 Projeto
 
-### Status
----
-  <a>Em desenvolvimento...</a>
+<p>O presente projeto visa desenvolver habilidades técnicas em tecnologias WEB tendo como base o programa gratuito promovido pela Rockseat.</p>
+
+<p align="center">
+  <img alt="Projeto Profile Links" src=".github/preview.jpg" width="100%">
+</p>
+
+### 🚀 Tecnologias
+  Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+  - HTML e CSS
+  - Javascript
+  - Git e Github
+  - Figma
 
 ### Autor
----
+
 <a><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/133506658?s=400&u=add96d4ebb6071b0473386091845a1509b3de27b&v=4" width="100px;" alt=""/>
 <br />
 <sub><b>Andressa Martins</b></sub></a>
