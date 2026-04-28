@@ -11,11 +11,11 @@
     --text-color: var(--snow);
     --bg-url: url(./assets/bg-dark-mode.jpg);
     --bg-color: #D6EAF812;
-    --bg-color-hover: var(--ice);
+    --bg-color-hover: transparent;
     --stroke-color: var(--glacier);
     --border-color: var(--frost);
     --icon-color: var(--snow);
-    --icon-hover: var(--midnight);
+    --icon-hover: var(--frost);
     --button-color: var(--ice);
     --switch-image: url(./assets/MoonStars.svg);
     --background-box-color: var(--frost);
