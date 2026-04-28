@@ -5,7 +5,7 @@
 <p>O presente projeto visa desenvolver habilidades técnicas em tecnologias WEB tendo como base o programa gratuito promovido pela Rockseat.</p>
 
 <p align="center">
-  <img alt="Projeto Profile Links" src=".github/preview.jpg" width="100%">
+  <img alt="Projeto Profile Links" src=".github/preview.png" width="100%">
 </p>
 
 ### 🚀 Tecnologias
